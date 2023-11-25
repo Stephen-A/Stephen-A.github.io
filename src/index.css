@@ -51,14 +51,14 @@ body {
     background-size: cover;
     border: 3px solid rgb(88 28 135);
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     position: relative;
 
 }
 @keyframes morph {
     0% {
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
     50% {
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
@@ -75,6 +75,10 @@ body {
     100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+}
+
+.project {
+    padding: 3rem 0;
 }
 
 .container {
@@ -90,9 +94,27 @@ body {
     display: flex;
     position: absolute;
 }
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    list-style: none;
+}
+.skills li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .about {
     padding: 3rem 0;
+}
+.about-content {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.text-aside {
+    padding-right: 1.5rem;
 }
 
 
@@ -131,3 +153,55 @@ body {
 }
 
 
+@media (max-width: 900px) {
+    .hero {
+        height: auto;
+        padding: 8rem 0rem 1rem 0rem;
+    }
+    .content {
+        flex-direction: column;
+        gap: 1.2rem;
+        height: auto;
+        text-align: center;
+    }
+    .hero-main {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .group {
+        display: inline-flex;
+    }
+    .skills {
+        flex-direction: column;
+        position: static;
+    }
+    .skills p {
+        border-bottom: 2px solid #44337a;
+        border-right: none;
+        margin-bottom: 2rem;
+        margin-right: 0;
+        padding-bottom: .5rem;
+        padding-right: 0;
+    }
+    .skills ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 1020px) {
+    .about {
+        padding: 8rem 0;
+    }
+    .about-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .text-aside {
+        margin: 0 auto;
+        max-width: 54rem;
+    }
+}
