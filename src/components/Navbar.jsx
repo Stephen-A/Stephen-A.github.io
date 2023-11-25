@@ -39,23 +39,23 @@ const Navbar = () => {
                 </ul>
 
             {/* Social icons */}
-            <div className='hidden min-[920px]:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden min-[1021px]:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-white' 
-                            href="/">
+                            href="https://www.linkedin.com/in/stephen--j--allen/">
                             LinkedIn <FaLinkedin size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-white' 
-                            href="/">
+                            href="https://github.com/Stephen-A">
                             Github <FaGithub size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                         <a className='flex justify-between items-center w-full text-white' 
-                            href="/">
+                            href="mailto: Stephenallen337@gmail.com">
                             Email <HiOutlineMail size={30}/>
                         </a>
                     </li>
@@ -65,9 +65,7 @@ const Navbar = () => {
                             Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>  

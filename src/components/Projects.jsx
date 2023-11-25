@@ -6,7 +6,7 @@ const Projects = () => {
         <div className='container'>
             <div className='project-content'>
                 <p>Portfolio</p>
-                <h3>Each Project comes with their own unique ideas</h3>
+                <h3>Check out my projects! Each has their own individual idea!</h3>
                 {/* div for all projects */}
                 <div className="projects-display">
                     {/* first project */}
