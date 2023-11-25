@@ -1,8 +1,8 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://Stephen-A.github.io/my-portfolio",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://stephen-a.github.io/",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -11,6 +11,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+    
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.15",
