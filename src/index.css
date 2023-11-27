@@ -51,6 +51,35 @@ body {
     width: 100%;
 }
 
+.projects-grid-display .project-left-right {
+    flex-direction: row-reverse;
+    gap: 4rem;
+    height: 30rem;
+    pad: 2rem;
+}
+
+.projects-grid-display .project {
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    display: flex;
+}
+
+.projects-grid-display .project-right-left {
+    flex-direction: row;
+    gap: 4rem;
+    height: 30rem;
+    pad: 2rem;
+}
+
+.projects-grid-display .project-description {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+}
+
 .projects-
 
 .hero-img {
