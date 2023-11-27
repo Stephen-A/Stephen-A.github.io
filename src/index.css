@@ -70,42 +70,58 @@ body {
     grid-template-rows: auto auto;
     height: auto;
     width: 100%;
-}
-.projects-grid-display .project {
-    border-radius: 1.5rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
-    display: flex;
     
-    @media (max-width: 1020px) {
-        flex-direction: column!important;
-        height: 75rem;
-        margin: 0 auto;
-        width: fit-content;
+    .project {
+        border-radius: 1.5rem;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        display: flex;
+    }
+
+    .project-description p {
+        font-size: 1.2rem;
     }
 }
 
-.projects-grid-display .project-left-right {
+.project.pro__1 {
     flex-direction: row;
     gap: 2rem;
-    height: 48rem;
+    height: 30rem;
     padding: 2rem;
+    width: fit-content;
+
+    @media (max-width: 1020px) {
+        flex-direction: column !important;
+        height: 40rem;
+        gap: 2rem;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    @media (max-width: 400px) { 
+        width: 100%;
+    }
 }
-.projects-grid-display .project-right-left {
-    flex-direction: row-reverse;
-    gap: 2rem;
-    height: 48rem;
-    padding: 2rem;
+
+.backward {
+   flex-direction: row-reverse !important;
 }
+
+
 .projects-grid-display .project-image {
     height: auto;
     overflow: hidden;
     border-radius: 1.5rem;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
-    width: 40rem;
+    width: 33rem;
+    
+    @media (width: 650px) {
+        width: 40%;
+    }
 }
 .projects-grid-display .project-image img {
     height: auto;
     width: 100%;
+
 }
 .projects-grid-display .project-description {
     display: flex;
@@ -128,10 +144,26 @@ body {
     position: relative;
 }
 
-.projects-grid-display .project-description p {
+.projects-grid-display .project-description > p {
     font-size: 1.7rem;
     text-align: center;
+    text-transform: none;
 }
+
+.tech-stack {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.tech-stack p {
+        font-size: 1rem !important;
+        font-weight: 700!important;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        padding: .5rem 1rem;
+        text-transform: none;
+}
+
 
 
 .hero-img {
