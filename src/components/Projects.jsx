@@ -19,6 +19,12 @@ const Projects = () => {
                         <div className="project-description">
                             <h3>Placeholder text</h3>
                             <p>Placeholder description</p>
+                            <div className='tech-stack'>
+                                Placeholder for project tech stack
+                            </div>
+                            <div className='project-links'>
+                                Placeholder for project links
+                            </div>
                         </div>
                     </div>
                     {/* second project */}
@@ -31,6 +37,12 @@ const Projects = () => {
                         <div className="project-description">
                             <h3>Placeholder title</h3>
                             <p>Placeholder description</p>
+                            <div className='tech-stack'>
+                                Placeholder for project tech stack
+                            </div>
+                            <div className='project-links'>
+                                Placeholder for project links
+                            </div>
                         </div>
                     </div>
                     {/* third project */}
@@ -43,6 +55,12 @@ const Projects = () => {
                         <div className="project-description">
                             <h3>Placeholder title</h3>
                             <p>Placeholder description</p>
+                            <div className='tech-stack'>
+                                Placeholder for project tech stack
+                            </div>
+                            <div className='project-links'>
+                                Placeholder for project links
+                            </div>
                         </div>
                     </div>
                     {/* fourth project */}
@@ -55,6 +73,12 @@ const Projects = () => {
                         <div className="project-description">
                             <h3>Placeholder text</h3>
                             <p>Placeholder description</p>
+                            <div className='tech-stack'>
+                                Placeholder for project tech stack
+                            </div>
+                            <div className='project-links'>
+                                Placeholder for project links
+                            </div>
                         </div>
                     </div>
                 </div>
