@@ -1,4 +1,5 @@
 import React from 'react'
+import CoffeComputer from '../assets/coffee_computer.jpg';
 
 const Projects = () => {
   return (
@@ -6,14 +7,14 @@ const Projects = () => {
         <div className='container'>
             <div className='project-content'>
                 <p>Portfolio</p>
-                <h3>Check out my projects! Each has their own individual idea!</h3>
+                <h3>Here&apos;s a few projects, each with their own unique idea</h3>
                 {/* div for all projects */}
                 <div className="projects-grid-display">
                     {/* first project */}
-                    <div className="project project-left-right">
+                    <div className="project pro__1 project-left-right">
                         <div className="project-image">
                             <a href='/'>
-                                <img></img>
+                                <img src={CoffeComputer}></img>
                             </a>
                         </div>
                         <div className="project-description">
@@ -28,10 +29,10 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* second project */}
-                    <div className="project project-right-left">
+                    <div className="project pro__1 project-right-left">
                         <div className="project-image">
                             <a href='/'>
-                                <img></img>
+                                <img src={CoffeComputer}></img>
                             </a>
                         </div>
                         <div className="project-description">
@@ -46,10 +47,10 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* third project */}
-                    <div className="project project-left-right">
+                    <div className="project pro__1 project-left-right">
                         <div className="project-image">
                             <a href='/'>
-                                <img></img>
+                                <img src={CoffeComputer}></img>
                             </a>
                         </div>
                         <div className="project-description">
@@ -64,10 +65,10 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* fourth project */}
-                    <div className="project project-right-left">
+                    <div className="project pro__1 project-right-left">
                         <div className="project-image">
                             <a href='/'>
-                                <img></img>
+                                <img src={CoffeComputer}></img>
                             </a>
                         </div>
                         <div className="project-description">
