@@ -5,13 +5,13 @@ const About = () => {
   return (
     <section id='about' className='about'>
         {/* Container */}
-        <div className='container text-[#2d2e32]'>
+        <div className='container'>
             <div className='about-content'>
                 <div className='img-side'>
                     <img className='main-img' src={CoffeeComputer} ></img>
                 </div>
                 <div className='text-side'>
-                    <h1 className='text-[1.7rem] font-bold'>About Me</h1>
+                    <h3>About Me</h3>
                     <p className='text-[1rem]'>As a junior front-end developer enthusiastic about crafting seamless and visually appealing web solutions. 
                         Proficient in HTML, CSS, JavaScript, React, and Tailwind. I invite you to explore my portfolio, 
                         where each project reflects my dedication to creating engaging user interfaces and dynamic web experiences. 

@@ -43,13 +43,19 @@ body {
 .hero-main {
     align-items: center;
     display: flex;
-    gap: 10rem;
+    gap: 7rem;
     justify-content: center;
     position: relative;
 }
 
 .hero-text {
     max-width: 29rem;
+}
+
+.hero-text p {
+    line-height: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
 }
 
 
@@ -92,7 +98,7 @@ body {
 }
 
 .container {
-    max-width: 62rem;
+    max-width: 60rem;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -117,7 +123,7 @@ body {
 }
 
 .about {
-    padding: 3rem 0;
+    padding: 9rem 0;
 
     @media (max-width: 1020px) {
         padding: 8rem 0;
@@ -165,6 +171,10 @@ body {
         margin: 0 auto;
         max-width: 34rem;
     }
+}
+.text-side h3 {
+    font-weight: 700;
+    font-size: 1.7rem;
 }
 .text-side p {
     font-weight: 500;
@@ -241,7 +251,7 @@ body {
 
 /* PROJECTS CSS */
 .projects {
-    padding: 15rem 0;
+    padding: 10rem 0;
     background-color: bisque;
     @media (max-width: 1020px) {
         padding: 8rem 0;
@@ -278,7 +288,7 @@ body {
 
 .projects-grid-display .project {
     border-radius: 1.5rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
     display: flex;
 }
 .projects-grid-display .project-description p {
@@ -315,10 +325,10 @@ body {
 
 
 .projects-grid-display .project-image {
-    height: auto;
+    height: fit-content;
     overflow: hidden;
     border-radius: 1.5rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0,0,0,.8);
     width: 33rem;
      
     @media (width: 650px) {
