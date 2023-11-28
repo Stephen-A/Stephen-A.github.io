@@ -7,7 +7,7 @@ const Projects = () => {
         <div className='container'>
             <div className='project-content'>
                 <p>Portfolio</p>
-                <h3>Here&apos;s a few projects, each with their own unique idea</h3>
+                <h3>Here&apos;s a few projects, check them out!</h3>
                 {/* div for all projects */}
                 <div className="projects-grid-display">
                     {/* first project */}
@@ -24,9 +24,7 @@ const Projects = () => {
                                 <p>React</p>
                                 <p>Tailwind CSS</p>  
                             </div>
-                            <div className='project-links'>
-                                Placeholder for project links
-                            </div>
+                            <div className='project-links'>Placeholder for project links</div>
                         </div>
                     </div>
                     {/* second project */}
