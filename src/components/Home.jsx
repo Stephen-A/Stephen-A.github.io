@@ -9,7 +9,7 @@ function Home() {
             <div className='content'>
                 <div className='hero-main'>
                     <div className='hero-text'>
-                        <h1 className='text-[#2d2e32] text-[4rem] sm:text-[3.5rem] md:text-[3.5rem] mb-[2rem] mt-[2rem] font-[800] leading-[1]'>Front-End React Developer</h1>
+                        <h1>Front-End React Developer</h1>
                         <p>Howdy hey, I&apos;m Stephen Allen, a front-end developer driven by passion for transforming concepts into captivating digital experiences.</p>
                         <button className='group'>View Work 
                             <span>
