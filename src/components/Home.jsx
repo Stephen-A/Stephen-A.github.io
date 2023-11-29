@@ -11,8 +11,8 @@ function Home() {
                     <div className='hero-text'>
                         <h1 className='text-[#2d2e32] text-[4rem] sm:text-[3.5rem] md:text-[3.5rem] mb-[2rem] mt-[2rem] font-[800] leading-[1]'>Front-End React Developer</h1>
                         <p>Howdy hey, I&apos;m Stephen Allen, a front-end developer driven by passion for transforming concepts into captivating digital experiences.</p>
-                        <button className='group border-2 px-6 py-3 my-2 flex items-center border-black hover:bg-purple-900 hover:border-purple-900 hover:text-[#fff]'>View Work 
-                            <span className='group-hover:rotate-90 duration-300'>
+                        <button className='group'>View Work 
+                            <span>
                                 <HiArrowNarrowRight className='ml-3'/>
                             </span>
                         </button>
@@ -20,9 +20,9 @@ function Home() {
                     <div className='hero-img'></div>
                 </div>
                 <div className='skills'>
-                        <p className='text-[1.2rem] left-2 border-r-2 border-purple-900 mr-3 pr-[2rem]'>Tech Stack</p>
-                        <div className='flex place-items-center'>
-                            <ul className='logos flex flex-wrap'>
+                        <p>Tech Stack</p>
+                        <div className='skill-icons'>
+                            <ul className='skill-logos'>
                                 <li>
                                     <img src="https://skillicons.dev/icons?i=html,css" alt="" />
                                 </li>

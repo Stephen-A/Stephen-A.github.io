@@ -8,6 +8,7 @@ const Projects = () => {
             <div className='project-content'>
                 <p>Portfolio</p>
                 <h3>Here&apos;s a few projects, check them out!</h3>
+                <h3>Currently placeholder values</h3>
                 {/* div for all projects */}
                 <div className="projects-grid-display">
                     {/* first project */}
