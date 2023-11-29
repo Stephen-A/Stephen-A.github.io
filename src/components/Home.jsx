@@ -11,7 +11,7 @@ function Home() {
                     <div className='hero-text'>
                         <h1>Front-End React Developer</h1>
                         <p>Howdy hey, I&apos;m Stephen Allen, a front-end developer driven by passion for transforming concepts into captivating digital experiences.</p>
-                        <button className='group'>View Work 
+                        <button>View Work 
                             <span>
                                 <HiArrowNarrowRight className='ml-3'/>
                             </span>

@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body {
+        font-family: 'Inter Variable', sans-serif;
+    }
+    li { 
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -16,13 +25,11 @@ body {
 }
 
 .container {
-    max-width: 60rem;
+    max-width: 100rem;
     margin: 0 auto;
     padding: 0 4rem;
 
-    @media (max-width: 460px) {
-        padding: 0 .2rem;
-    }
+
 }
 .content {
     align-items: center;
@@ -38,10 +45,7 @@ body {
             height: auto;
             text-align: center;
         }
-    
-    @media (max-width: 280px) {     
-        left: 2rem;
-    }
+
 }
 .hero {
     display: flex;
@@ -93,10 +97,6 @@ body {
     line-height: 1.8rem;
     font-weight: 500;
     padding-bottom: 2rem;
-
-    @media (max-width:900px) {
-        margin-bottom: 2rem;
-    }
 }
 
 .hero-img {
@@ -143,6 +143,7 @@ body {
     padding: .75rem 1.5rem;
     border-width: 2px;
     margin: 0.5rem 0;
+    width: fit-content;
     align-items: center;
     display: flex;
     border: 2px solid rgb(88 28 135);
@@ -170,7 +171,7 @@ body {
     position: absolute;
     left: 0;
     
-    @media (max-width: 900px) {
+    @media (max-width: 960px) {
         flex-direction: column;
         position: static;
     }
@@ -197,7 +198,7 @@ body {
     border-right: 3px solid rgb(88 28 135);
     margin-right: .75rem;
 
-    @media (max-width: 900px) {
+    @media (max-width: 960px) {
         border-bottom: 2px solid #44337a;
         border-right: none;
         margin-bottom: 2rem;
@@ -273,41 +274,9 @@ body {
 }
 
 
-@media (max-width: 960px) {
-    .group {
-        display: inline-flex;
-    }
-    .skills {
-        flex-direction: column;
-        position: static;
-    }
-    .skills ul {
-        justify-content: center;
-
-        @media (max-width: 900px) {
-            justify-content: center;
-        }
-    }
-}
-
-
-
-@layer base {
-    body {
-        font-family: 'Inter Variable', sans-serif;
-    }
-    li { 
-        @apply px-4;
-        @apply cursor-pointer;
-    }
-}
-
-
 ::-webkit-scrollbar {
     width: 10px;
 }
-
-
 ::-webkit-scrollbar-thumb {
     background-color: rgb(88 28 135);
     border-radius: 20px;
@@ -315,12 +284,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(64, 22, 92);
 }
-
 ::webkit-scrollbar-track:active, ::-webkit-scrollbar-track:hover {
     background-color: #fff;
 }
-
-
 ::-webkit-scrollbar-track {
     background-color: #fff;
     border-radius: 20px;
