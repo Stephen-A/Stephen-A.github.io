@@ -14,18 +14,21 @@ const Projects = () => {
                     {/* first project */}
                     <div className="project pro__1 forward">
                         <div className="project-image">
-                            <a href='/'>
+                            <a href='https://www.shanescards.net/'>
                                 <img src={shanes_logo}></img>
                             </a>
                         </div>
                         <div className="project-description">
-                            <h3>Shane's Card Shop Redesign</h3>
-                            <p>A redesign of my local card game store's current website <a href='https://www.shanescards.net/'>Shane's Cards</a>, taking some of their core components in mind with the new design.</p>
+                            <h3>Shane's Cards Redesign</h3>
+                            <p>A redesign of my local card game store's current website. I chose to design the new website with their current website's core components in mind.</p>
                             <div className='tech-stack'>
                                 <p>React</p>
                                 <p>Tailwind CSS</p>  
                             </div>
-                            <div className='project-links'>Placeholder for project links</div>
+                            <div className='project-links'>
+                                <a href=''>Source Code</a>
+                                <a href=''>Live Demo</a>
+                            </div>
                         </div>
                     </div>
                     {/* second project */}
