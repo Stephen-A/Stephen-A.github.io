@@ -1,5 +1,6 @@
 import React from 'react'
 import CoffeComputer from '../assets/coffee_computer.jpg';
+import shanes_logo from '../assets/shanes_logo.png';
 
 const Projects = () => {
   return (
@@ -14,12 +15,12 @@ const Projects = () => {
                     <div className="project pro__1 forward">
                         <div className="project-image">
                             <a href='/'>
-                                <img src={CoffeComputer}></img>
+                                <img src={shanes_logo}></img>
                             </a>
                         </div>
                         <div className="project-description">
                             <h3>Shane's Card Shop Redesign</h3>
-                            <p>A redesign of my local card game store's current website: https://www.shanescards.net/, taking some of their core components in mind with the new design.</p>
+                            <p>A redesign of my local card game store's current website <a href='https://www.shanescards.net/'>Shane's Cards</a>, taking some of their core components in mind with the new design.</p>
                             <div className='tech-stack'>
                                 <p>React</p>
                                 <p>Tailwind CSS</p>  
