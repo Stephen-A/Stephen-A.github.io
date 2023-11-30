@@ -12,6 +12,9 @@
     }
 }
 
+html {
+    font-size:62.5%
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,18 +27,16 @@ body {
     position: relative;
 }
 
+
 .container {
-    max-width: 100rem;
+    max-width: 107rem;
     margin: 0 auto;
     padding: 0 4rem;
-
-
 }
 .content {
     align-items: center;
     display: flex;
-    gap: 10rem;
-    height: 38rem; 
+    height: 60rem; 
     justify-content: center;
     position: relative;
 
@@ -47,6 +48,9 @@ body {
         }
 
 }
+nav {
+    font-size: 1.8rem;
+}
 .hero {
     display: flex;
     background-color: bisque;
@@ -57,14 +61,14 @@ body {
 
     @media (max-width: 960px) {
         height: auto;
-        padding: 8rem 0;
+        padding: 15rem 0;
     }
 }
 
 .hero-main {
     align-items: center;
     display: flex;
-    gap: 3rem;
+    gap: 10rem;
     justify-content: center;
     position: relative;
 
@@ -75,14 +79,14 @@ body {
     }
 }
 .hero-text {
-    max-width: 29rem;
+    max-width: 41rem;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 .hero-text h1 {
     line-height: 1;
-    font-size: 3.5rem;
+    font-size: 5.1rem;
     font-weight: 800;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -95,9 +99,11 @@ body {
 
 .hero-text p {
     line-height: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 500;
     padding-bottom: 2rem;
 }
+
 
 .hero-img {
     -webkit-animation: morph 8s ease-in-out infinite;
@@ -109,15 +115,14 @@ body {
     background-size: cover;
     border: 3px solid rgb(88 28 135);
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
     position: relative;
 
     @media (max-width: 500px) {
         height: 18rem;
         width: 18rem;
     }
-
 }
 @keyframes morph {
     0% {
@@ -140,6 +145,8 @@ body {
     }
 }
 .hero button {
+    font-size: 1.7rem;
+    font-weight: 500;
     padding: .75rem 1.5rem;
     border-width: 2px;
     margin: 0.5rem 0;
@@ -167,9 +174,11 @@ body {
 .skills {
     align-items: center;
     bottom: 0;
+    left: 9rem;
+    font-size: 1.7rem;
     display: flex;
     position: absolute;
-    left: 0;
+
     
     @media (max-width: 960px) {
         flex-direction: column;
@@ -184,7 +193,7 @@ body {
 .skills ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
     list-style: none;
     position: relative;
     
@@ -193,10 +202,12 @@ body {
     }
 }
 .skills p {
-    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
     padding-right: 2rem;
-    border-right: 3px solid rgb(88 28 135);
-    margin-right: .75rem;
+    border-right: 2px solid rgb(88 28 135);
+    margin-right: 7rem;
 
     @media (max-width: 960px) {
         border-bottom: 2px solid #44337a;
@@ -213,7 +224,7 @@ body {
 }
 .skills ul li img {
     height: 5rem;
-    width: 7rem;
+    width: 10rem;
 }
 
 /* ABOUT CONTENT CSS */
@@ -221,7 +232,7 @@ body {
     padding: 9rem 0;
 
     @media (max-width: 960px) {
-        padding: 8rem 0;
+        padding: 15rem 0;
     }
 }
 .about-content {
@@ -246,51 +257,40 @@ body {
 
 .main-img {
     position: relative;
-    height: 356.8px;
+    height: 322px;
     border-radius: 1.5rem;
-    width: 22rem;
+    width: 40rem;
 }
 
 .text-side {
+    padding-right: 1.5rem;
     @media (max-width: 960px) {
         margin: 0 auto;
-        max-width: 34rem;
+        max-width: 54rem;
     }
 }
 .text-side h3 {
-    border-bottom: 3px solid rgb(88 28 135);
+    border-bottom: 2px solid rgb(88 28 135);
     width: fit-content;
-    margin-left: auto;
     margin-right: auto;
     color: rgb(88 28 135);
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
-    height: 35px;
+    height: 30px;
+
+    @media (max-width: 960px) {
+        margin: 0 auto;
+    }
 }
 .text-side p {
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: 500;
+    @media (max-width: 960px) {
+        margin-top: 1rem;
+    }
 }
 
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-thumb {
-    background-color: rgb(88 28 135);
-    border-radius: 20px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(64, 22, 92);
-}
-::webkit-scrollbar-track:active, ::-webkit-scrollbar-track:hover {
-    background-color: #fff;
-}
-::-webkit-scrollbar-track {
-    background-color: #fff;
-    border-radius: 20px;
-}
 
 
 /* PROJECTS CSS */
@@ -310,7 +310,7 @@ body {
     }
 }
 .project-content p {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -318,11 +318,11 @@ body {
 .project-content h3 {
     margin-bottom: 4rem;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 .projects-grid-display {
     display: grid;
-    grid-gap: 3rem;
+    grid-gap: 6rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     height: auto;
@@ -340,14 +340,14 @@ body {
 .project.pro__1 {
     background-color: white;
     flex-direction: row;
-    gap: 2rem;
-    height: 26rem;
-    padding: 1rem;
+    gap: 5rem;
+    height: 40rem;
+    padding: 2rem;
 
-    @media (max-width: 960px) {
+    @media (max-width: 1030px) {
         flex-direction: column !important;
-        height: 40rem;
-        gap: 2rem;
+        height: 55rem;
+        gap: 3rem;
         margin: 0 auto;
         width: fit-content;
     }
@@ -360,7 +360,7 @@ body {
     overflow: hidden;
     border-radius: 1.5rem;
     box-shadow: 0 0 10px rgba(0,0,0,.8);
-    width: 28rem;
+    width: 55rem;
      
     @media (max-width: 650px) {
         width: 100%;
@@ -377,9 +377,9 @@ body {
     height: auto;
     justify-content: center;
     text-align: center;
-    width: 20rem;
+    width: 30rem;
 
-    @media (max-width: 960px) {
+    @media (max-width: 1030px) {
         margin: 0 auto;
     }
 }
@@ -410,4 +410,48 @@ body {
         box-shadow: 0 0 10px rgba(0,0,0,.1);
         padding: .5rem 1rem;
         text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(88 28 135);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(64, 22, 92);
+}
+::webkit-scrollbar-track:active, ::-webkit-scrollbar-track:hover {
+    background-color: #fff;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 20px;
 }

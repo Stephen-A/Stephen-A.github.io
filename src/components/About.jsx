@@ -12,11 +12,12 @@ const About = () => {
                 </div>
                 <div className='text-side'>
                     <h3>About Me</h3>
-                    <p>As a junior front-end developer enthusiastic about crafting seamless and visually appealing web solutions. 
+                    <p>As a junior front-end developer, I am enthusiastic about crafting seamless and visually appealing web solutions. 
                         Proficient in HTML, CSS, JavaScript, React, and Tailwind. I invite you to explore my portfolio, 
                         where each project reflects my dedication to creating engaging user interfaces and dynamic web experiences. 
-                        Driven by a curiosity for emerging technologies, I constantly seek to expand my skills and embrace innovative approaches in web development. 
-                        Join me on this coding journey as I contribute my part to the ever-evolving landscape of front-end development.</p>
+                        Driven by a curiosity for emerging technologies, I constantly seek to expand my skills and embrace innovative approaches in web development.
+                        Collaborative by nature, I thrive in team environments and relish the opportunity to work alongside fellow developers to bring projects to life.
+                        </p>
                 </div>
             </div>
         </div>  

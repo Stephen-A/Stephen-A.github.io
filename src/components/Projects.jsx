@@ -8,7 +8,6 @@ const Projects = () => {
             <div className='project-content'>
                 <p>Portfolio</p>
                 <h3>Here&apos;s a few projects, check them out!</h3>
-                <h3>Currently placeholder values</h3>
                 {/* div for all projects */}
                 <div className="projects-grid-display">
                     {/* first project */}
@@ -19,8 +18,8 @@ const Projects = () => {
                             </a>
                         </div>
                         <div className="project-description">
-                            <h3>Placeholder text</h3>
-                            <p>Placeholder description</p>
+                            <h3>Shane's Card Shop Redesign</h3>
+                            <p>A redesign of my local card game store's current website: https://www.shanescards.net/. I took some of their core components in mind with the new design</p>
                             <div className='tech-stack'>
                                 <p>React</p>
                                 <p>Tailwind CSS</p>  

@@ -20,25 +20,25 @@ function Home() {
                     <div className='hero-img'></div>
                 </div>
                 <div className='skills'>
-                        <p>Tech Stack</p>
-                        <div className='skill-icons'>
-                            <ul className='skill-logos'>
-                                <li>
-                                    <img src="https://skillicons.dev/icons?i=html,css" alt="" />
-                                </li>
-                                <li>
-                                    <img src="https://skillicons.dev/icons?i=javascript,react" alt="" />
-                                </li>
-                                <li>
-                                    <img src="https://skillicons.dev/icons?i=tailwind,bootstrap" alt="" />
-                                </li>
-                                <li>
-                                    <img src="https://skillicons.dev/icons?i=git,vscode" alt="" />   
-                                </li>
-                            </ul>
-                        </div>
+                    <p>Tech Stack</p>
+                    <div className='skill-icons'>
+                        <ul className='skill-logos'>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=html,css" alt="" />
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=javascript,react" alt="" />
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=tailwind,bootstrap" alt="" />
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=git,vscode" alt="" />   
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                </div>
+            </div>
         </div>
     </section>
   )
