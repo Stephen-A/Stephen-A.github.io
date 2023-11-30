@@ -19,7 +19,7 @@ const Projects = () => {
                         </div>
                         <div className="project-description">
                             <h3>Shane's Card Shop Redesign</h3>
-                            <p>A redesign of my local card game store's current website: https://www.shanescards.net/. I took some of their core components in mind with the new design</p>
+                            <p>A redesign of my local card game store's current website: https://www.shanescards.net/, taking some of their core components in mind with the new design.</p>
                             <div className='tech-stack'>
                                 <p>React</p>
                                 <p>Tailwind CSS</p>  
