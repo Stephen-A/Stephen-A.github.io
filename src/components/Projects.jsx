@@ -1,6 +1,7 @@
 import React from 'react'
 import CoffeComputer from '../assets/coffee_computer.jpg';
 import shanes_logo from '../assets/shanes_logo.png';
+import { FiExternalLink, FiGithub } from "react-icons/fi";
 
 const Projects = () => {
   return (
@@ -26,8 +27,8 @@ const Projects = () => {
                                 <p>Tailwind CSS</p>  
                             </div>
                             <div className='project-links'>
-                                <a href=''>Source Code</a>
-                                <a href=''>Live Demo</a>
+                                <a href=''>Code<FiGithub /></a>
+                                <a href=''>Demo<FiExternalLink /></a>
                             </div>
                         </div>
                     </div>
@@ -46,7 +47,8 @@ const Projects = () => {
                                 <p>Tailwind CSS</p>                            
                             </div>
                             <div className='project-links'>
-                                Placeholder for project links
+                                <a href=''>Code<FiGithub /></a>
+                                <a href=''>Demo<FiExternalLink /></a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +67,8 @@ const Projects = () => {
                                 <p>Tailwind CSS</p>
                             </div>
                             <div className='project-links'>
-                                Placeholder for project links
+                                <a href=''>Code<FiGithub /></a>
+                                <a href=''>Demo<FiExternalLink /></a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +87,8 @@ const Projects = () => {
                                 <p>Tailwind CSS</p>
                             </div>
                             <div className='project-links'>
-                                Placeholder for project links
+                                <a href=''>Code<FiGithub /></a>
+                                <a href=''>Demo<FiExternalLink /></a>
                             </div>
                         </div>
                     </div>

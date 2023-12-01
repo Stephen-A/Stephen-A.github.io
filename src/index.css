@@ -205,7 +205,6 @@ nav {
 }
 .skills p {
     color: #424246;
-    margin-top: 1rem;
     font-size: 1.8rem;
     font-weight: 500;
     padding-right: 2rem;
@@ -329,9 +328,9 @@ nav {
 }
 .project-content h3 {
     color: #2d2e32;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .projects-grid-display {
     display: grid;
@@ -388,7 +387,7 @@ nav {
     display: flex;
     flex-direction: column;
     height: auto;
-    justify-content: start;
+    justify-content: flex-start;
     text-align: center;
     width: 30rem;
 
@@ -397,13 +396,12 @@ nav {
     }
 }
 .projects-grid-display .project-description h3 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #2d2e32;
     text-transform: uppercase;
     align-items: center;
     display: flex; 
-    gap: 0.2rem;
     justify-content: center;
     margin-bottom: 2rem;
     position: relative;
@@ -413,15 +411,21 @@ nav {
     gap: 1rem;
     justify-content: space-evenly;
     margin-top: 3rem;
-    
 }
 
-.project-links, .project-links a{
+.project-links a{
+    font-size: 1.7rem;
+    font-weight: 500;
+    gap: 5px;
+}
+
+.project-links, .project-links > a{
     align-items: center;
     display: flex;
 }
 .project-description a:hover {
     color: blue;
+    transition: all 500ms;
 }
 
 .projects-grid-display .project-description > p {
@@ -434,7 +438,7 @@ nav {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 .tech-stack p {
     color: #000;
