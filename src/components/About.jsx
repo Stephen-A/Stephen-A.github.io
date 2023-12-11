@@ -5,7 +5,6 @@ import CoffeeComputer from '../assets/coffee_computer.jpg'
 const About = () => {
   return (
     <section id='about' className='about'>
-        {/* Container */}
         <div className='container'>
             <div className='about-content'>
                 <div className='img-side'>
