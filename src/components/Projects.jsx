@@ -1,4 +1,5 @@
 import React from 'react'
+import './Projects.css';
 import CoffeComputer from '../assets/coffee_computer.jpg';
 import shanes_logo from '../assets/shanes_logo.png';
 import { FiExternalLink, FiGithub } from "react-icons/fi";
@@ -13,7 +14,7 @@ const Projects = () => {
                 {/* div for all projects */}
                 <div className="projects-grid-display">
                     {/* first project */}
-                    <div className="project pro__1 forward">
+                    <div className="project all_projects forward">
                         <div className="project-image">
                             <a href='https://www.shanescards.net/'>
                                 <img src={shanes_logo}></img>
@@ -33,7 +34,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* second project */}
-                    <div className="project pro__1 backward">
+                    <div className="project all_projects backward">
                         <div className="project-image">
                             <a href='/'>
                                 <img src={CoffeComputer}></img>
@@ -53,7 +54,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* third project */}
-                    <div className="project pro__1 forward">
+                    <div className="project all_projects forward">
                         <div className="project-image">
                             <a href='/'>
                                 <img src={CoffeComputer}></img>
@@ -73,7 +74,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* fourth project */}
-                    <div className="project pro__1 backward">
+                    <div className="project all_projects backward">
                         <div className="project-image">
                             <a href='/'>
                                 <img src={CoffeComputer}></img>

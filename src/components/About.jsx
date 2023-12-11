@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 import CoffeeComputer from '../assets/coffee_computer.jpg'
 
 const About = () => {

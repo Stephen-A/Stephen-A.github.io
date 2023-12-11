@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './Navbar.css';
 import '@fontsource-variable/inter';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import {HiOutlineMail} from 'react-icons/hi';
