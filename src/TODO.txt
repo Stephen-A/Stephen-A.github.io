@@ -3,15 +3,5 @@ device, and this file will assist in keeping version control more manageable.
 
 *** CHANGES TO BE IMPLEMENTED ***
 
--- remove "margin-top" styling.
-.skills p {
-    margin-top: 0; 
-}
-
--- change "justify-content: start" to "justify-content: flex-start"
-.projects-grid-display .project-description {
-    justify-content: flex-start; 
-}
-
 
 
