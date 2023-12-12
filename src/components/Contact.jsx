@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
-import { MdOutlineMail } from "react-icons/md";
+import { CiMail } from "react-icons/ci";
+import { CiLinkedin } from "react-icons/ci";
 
 const Contact = () => {
   return (
@@ -13,13 +14,23 @@ const Contact = () => {
             </div>
             <div className='contact-image'>
               <div className='contact-image-holder'>
-                <span><MdOutlineMail /></span>
-                <div className='contact-info'></div>
+                <span>
+                  <CiMail />
+                </span>
+                <div className='contact-info'>
+                  <h3>Email</h3>
+                  <p><a href='mailto:stephenallen337@gmail.com'>Stephenallen337@gmail.com</a></p>
+                </div>
 
               </div>
               <div className='contact-image-holder'>
-                <span> </span>
-                <div className='contact-info'></div>
+                <span>
+                  <CiLinkedin />
+                </span>
+                <div className='contact-info'>
+                  <h3>LinkedIn</h3>
+                  <p><a href='https://www.linkedin.com/in/stephen--j--allen/'>stephen--j--allen/</a></p>
+                </div>
 
             </div>
         </div>
